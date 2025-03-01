@@ -76,7 +76,7 @@ header {
   padding: 0.5rem;
   border-radius: 100vmax;
   cursor: pointer;
-  text-transform: capitalize;
+  text-transform: uppercase;
   font-weight: 600;
   box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.05);
   font-size: 0.7rem;
@@ -104,7 +104,7 @@ main {
   background-color: var(--clr-white);
   box-shadow: 0 0 1rem -0.5rem rgba(0, 0, 0, 0.2);
   padding: 1rem 0;
-  text-transform: capitalize;
+  text-transform: uppercase;
   position: relative;
   isolation: isolate;
   overflow: hidden;
@@ -150,7 +150,6 @@ main {
 }
 
 .pokemon-id {
-  background-color: var(--clr-gray);
   padding: 0.25rem;
 }
 
